@@ -1,0 +1,29 @@
+{
+    "name": "ihliblog",
+    "version": "1.0.0",
+    "description": "First attempt at a node-based blog",
+    "main": "index.js",
+    "scripts": {
+        "devStart": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ihliman/ihliblog.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ihliman/ihliblog/issues"
+    },
+    "homepage": "https://github.com/ihliman/ihliblog#readme",
+    "dependencies": {
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "mongoose": "^5.12.7"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
